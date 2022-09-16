@@ -196,3 +196,8 @@ button {
     height: 100%;
   }
 }
+
+.blog {
+  color: aliceblue;
+  text-align: center;
+}

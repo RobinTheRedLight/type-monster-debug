@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .divBody {
+            background-color: #FAEBD7;
+            padding: 10px;
+            margin-top: 5px;
+            border: 2px solid #00cc99;
+        }
+
+        h2 {
+            color: #800000;
+        }
+
+        p {
+            color: #333399;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e6b800;
+        }
+    </style>
+    <title>Blog</title>
+</head>
+
+<body style="margin: auto;  max-width: 800px; margin-top: 10px;">
+    <div style=" border: 2px solid #6666ff; padding: 15px;">
+        <h1>BLOG</h1>
+        <h3 style="text-align: center;"><span style="color: blue;"><a href="index.html">Go back to preveous
+                    page</a></span>
+            <h3>
+
+                <div class="divBody">
+                    <h2>1.Difference Between Local Storage, Session Storage</h2>
+                    <p>The storage capacity of local storage is 5MB/10MB.The storage capacity of session storage is
+                        5MB.As it is not session-based, it must be deleted via javascript or manually.
+                        It’s session-based and works per window or tab. This means that data is stored only for the
+                        duration of a session, i.e., until the browser (or tab) is closed.
+                    </p>
+                </div>
+
+                <div class="divBody">
+                    <h2>2.Global Scope vs Block Scope</h2>
+                    <p>ES6 introduced two important new JavaScript keywords: let and const.
+
+                        These two keywords provide Block Scope in JavaScript.
+
+                        Variables declared inside a { } block cannot be accessed from outside the block.
+                        Variables declared Globally (outside any function) have Global Scope.
+
+                        Global variables can be accessed from anywhere in a JavaScript program.
+
+                        Variables declared with var, let and const are quite similar when declared outside a block.
+                    </p>
+                </div>
+                <div class="divBody">
+                    <h2>3. JS event loop</h2>
+                    <p>The event loop is a process that waits for the Call Stack to be clear before pushing callbacks
+                        from the Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and
+                        checks the Task Queue for available callbacks. If there are any, it pushes it to the Call Stack,
+                        waits for the Call Stack to be clear again, and repeats the same process.</p>
+                </div>
+
+                <div class="divBody">
+                    <h2>4.Ways to get Undefined</h2>
+                    <p>1.Uninitialized variable
+                        2.Accessing a non-existing property
+                        3.The function parameters implicitly default to undefined.
+                        4.Implicitly, without return statement, a JavaScript function returns undefined.
+                        5.void expression evaluates the expression and returns undefined no matter the result of the
+                        evaluation.
+                    </p>
+                </div>
+    </div>
+</body>
+
+</html>

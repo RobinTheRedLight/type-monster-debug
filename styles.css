@@ -154,10 +154,11 @@ button {
 }
 
 .card {
-  width: 49%;
-  height: 49%;
+  width: 30%;
+  height: 30%;
   padding: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
